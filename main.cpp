@@ -8,6 +8,8 @@
 * @author Georgi Mihaylov
 * @idnumber 3MI0600047
 * @compiler VC
+* 
+* <file with main program>
 *
 */
 
