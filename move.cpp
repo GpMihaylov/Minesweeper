@@ -25,7 +25,8 @@ void makeMove(char* command, int& row, int& column)
 		if (std::cin.fail())
 		{
 			std::cin.clear();
-			std::cin.ignore();
+			std::cin.ignore(1024, '\n');
+			std::cout << "Invalid entry!\n\n";
 			continue;
 		}
 
